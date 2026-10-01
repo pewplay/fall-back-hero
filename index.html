@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Fall Back Hero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="game" aria-label="Fall Back Hero"></canvas>
+    <div id="touch" aria-hidden="true">
+        <div class="stick" id="stick-move"><div class="knob"></div><span>MOVE</span></div>
+        <div class="stick" id="stick-aim"><div class="knob"></div><span>FIRE</span></div>
+    </div>
+    <button id="bomb" type="button" aria-label="Throw bomb">BOMB</button>
+    <button id="sound" type="button" aria-label="Mute sound">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>
+            <path class="on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path class="off" d="M16.5 9.5l5 5M21.5 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+    <script src="game.js"></script>
+</body>
+</html>

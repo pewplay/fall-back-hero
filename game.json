@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Fall Back Hero",
+  "description": "Retreat through an alien cave in this free pixel-art top-down shooter: blast swarming spiders and outrun the scrolling screen in your browser.",
+  "about": "An alien lifeform has nested in a cave beside a fallen meteor, and your elite squad has been sent to secure it. Things go wrong fast: the screen keeps scrolling down, and any soldier left behind at the top edge is lost, so you must fall back through the tunnels while fighting everything in your way.\n\nAim freely and hold fire to spray plasma at purple runners pouring out of burrows, turret aliens that shoot back, mines that explode on contact and worms that burst out of the ground. Bombs land where you aim and clear whole crowds, but there are only a few, so pick up bomb crates to refill them and medkits to heal. You have three men and five hand-made levels to survive.\n\nOriginally created by Tricsi (development), Tayrassin (game and level design) and Gotshi (music) for js13kGames 2019.",
+  "howToPlay": "Keep moving down through the cave before the scrolling screen catches you at the top edge. Shoot the aliens, throw bombs at groups, and grab medkits and bomb crates along the way. Reach the bottom of the cave to clear the level; lose all three men and the game is over.",
+  "controls": [
+    { "input": "W A S D or arrow keys", "action": "Move" },
+    { "input": "Mouse + left click", "action": "Aim and fire" },
+    { "input": "Right click", "action": "Throw a bomb at the cursor" },
+    { "input": "On-screen buttons", "action": "Left pad moves, right pad aims and fires, Bomb button throws a bomb" },
+    { "input": "Space / speaker button", "action": "Toggle music / mute all sound" }
+  ],
+  "tips": [
+    "Stay near the middle of the screen: too high and the scrolling edge kills you, too low and you run into enemies you have not seen yet.",
+    "Burrows keep spawning runners while you are close, so destroy the crowd with a bomb and move past quickly.",
+    "Turret aliens only start shooting when you get near them, so take them out from a distance.",
+    "Save at least one bomb for the narrow passages where runners pile up."
+  ],
+  "faq": [
+    { "question": "Is Fall Back Hero free to play?", "answer": "Yes, it is completely free and runs in your browser with nothing to install." },
+    { "question": "Can I play on a phone or tablet?", "answer": "Yes. Touch devices get a twin-stick layout with a move pad, an aim-and-fire pad and a bomb button; it works in portrait and landscape, though a mouse gives more precise aiming." },
+    { "question": "How many levels are there?", "answer": "There are five levels; your score and remaining men carry over from one level to the next." }
+  ],
+  "category": "Action",
+  "tags": ["shooter", "top-down", "pixel-art", "aliens", "retro", "js13k"],
+  "author": "Tricsi, Tayrassin & Gotshi",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": ["screenshots/1.png", "screenshots/2.png", "screenshots/3.png"],
+  "added": "2026-10-01",
+  "draft": false
+}
